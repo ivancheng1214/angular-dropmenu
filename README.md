@@ -55,8 +55,8 @@ angular.module('demoApp', ['dropmenu'])
         </p>
         <dropmenu items="items" selected="selected" label= "name" is-open="true"></dropmenu>
 
-        <!-- <script src= "https://code.angularjs.org/1.5.11/angular.min.js"></script> -->
-        <script src="angular.min.js"></script>
+        <script src= "https://code.angularjs.org/1.5.11/angular.min.js"></script>
+        <!-- <script src="angular.min.js"></script> -->
         <script src="./src/dropmenu.js"></script>
         <script src="./app.js"></script>
     </body>
