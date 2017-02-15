@@ -1,10 +1,11 @@
-# Angular dropmenu
+# Angular dropmenu directive
 
 html dropdown directive for AngularJS.
 
-No jquery
+angular 1.4 +
+No jquery, No Bootstrap
 
-See examples: https://ivancheng1214.github.io/angular-dropmenu/
+See demo: https://ivancheng1214.github.io/angular-dropmenu/
 
 ## Usage
 
