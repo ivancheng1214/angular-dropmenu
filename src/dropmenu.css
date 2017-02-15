@@ -1,0 +1,46 @@
+.dropmenu-container {
+	width:250px;
+}
+
+.dropmenu-header {
+	border: 1px solid #eee;
+	cursor: pointer;
+	padding: 10px;
+}
+
+.dropmenu-header > .label {
+	display: inline-block;
+	height: 20px;
+	max-width: 210px;
+	overflow: hidden;
+
+}
+
+.dropmenu-header > .icon {
+	display: inline-block;
+	float: right;
+	padding-top:3px;
+}
+
+.dropmenu-body {
+	border: 1px solid #eee;
+	border-top: 0px;
+	display: none;
+}
+
+.dropmenu-body.active {
+	display: block;
+}
+
+.dropmenu-item {
+	cursor: pointer;
+	padding: 10px;	
+}
+
+.dropmenu-item:hover {
+	background-color : #ddd;
+}
+
+.dropmenu-item.active {
+	background-color: #456789;
+}

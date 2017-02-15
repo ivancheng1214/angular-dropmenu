@@ -1,0 +1,26 @@
+<div class="dropmenu-container">
+	<div class="dropmenu-header" ng-click='ctrl.onHeaderClick()'>
+		<div class="label">
+			<span ng-if="ctrl.selected.id">
+				{{ctrl.selected[ctrl.label]}}			
+			</span>
+			<span ng-if="!ctrl.selected.id">
+				Please select something...
+			</span>
+		</div>
+
+		<div class="icon">
+			&#9660
+		</div>
+	</div>
+
+	<div class="dropmenu-body" ng-class="{'active': ctrl.isOpen}">
+		<div class= "dropmenu-item" 
+			ng-repeat = "item in ctrl.items"
+			ng-click="ctrl.onClickItem(item)"
+			ng-class= "{'active': ctrl.selected.id === item.id}"
+			>
+			{{item[ctrl.label]}}
+		</div>
+	</div>
+</div>
